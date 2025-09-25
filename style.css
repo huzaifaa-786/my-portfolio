@@ -1,0 +1,130 @@
+*{font-family: montserrat}
+header{
+  display:flex;
+  justify-content:space-between;
+  align-content: center;
+  padding:20px;
+  background-color:black;
+}
+body{
+  background-color: darkblue;
+}
+.box{
+  position:static;
+  border:1px solid;
+  font-weight: bold;
+  height:20px;
+  width:30px;
+  background-color:red;
+  border-radius:30px;
+}
+.name{
+  position:relative;
+  top:-20px;
+  color:white;
+  left:30px;
+}
+.nav{ display: flex;
+  justify-content: space-between;
+  gap:20px;
+}
+.btn:hover{
+  background-color: blue;
+  color:white;
+  trqnsform: scale(1.05);
+}
+a{
+  text-decoration: none;
+  background-color: grey;
+  color:white;
+  
+}
+main{
+  display: block;
+  justify-content: center;
+  padding: 40px 20px;
+  color:white;
+}
+img{
+  height: 200px;
+  width:200px;
+  justify-self: end;
+  margin-left: 300px;
+  border-radius: 100px;
+  text-align: right;}
+html{scroll-behavior:smooth;}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: center;
+  padding:40px 20px;
+}
+.card{
+  background-color: purple;
+  border-radius: 10px;
+  padding:20px;
+  width:250px;
+  color:white;
+  transition: transform 0.3s ease;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2)
+}
+.card:hover{
+  transform: scale (1.05);
+}
+.idea-card{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: center;
+  padding:40px 20px;
+}
+  .idea{
+  background-color: purple;
+  border-radius: 10px;
+  padding:20px;
+  width:250px;
+  color:white;
+  transition: transform 0.3s ease;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2)
+}
+.idea:hover{
+  transform: scale (1.05);
+}
+.image{
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  margin-top: -20px;
+}
+h1,p,ul,ol{
+  color:white;
+}
+.grid{display:grid;
+  grid-template-columns:auto auto;
+}
+footer{
+  background-color:violet;
+  color:white;
+  text-align: center;
+  padding: 20px;
+}
+.work{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.Go{
+  position:absolute;
+  left:97%
+}
+.Go:hover{
+  tranaition:scale(1.05);
+  background-color: yellow;
+  color:white;
+}
+.search{
+  position:relative;
+}
